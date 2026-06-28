@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    padding: 10px;
+}
+header{
+    text-align: center;
+    background-color: pink;
+    color: aliceblue;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    text-align: center;
+    border: 1px dashed red;
+    color: blue;
+    padding: 5px;
+ 
+}
+footer{
+    text-align: center;
+    background-color: pink;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h2{
+   
+    color: blue;
+}

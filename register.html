@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+           
+            display: flex;
+            flex-direction: column;
+            background-color: aliceblue;
+            border-radius: 5px;
+            border-color:black;
+            
+        }
+        header{
+            text-align: center;
+            background-color: pink;
+            color: aliceblue;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            text-align: center;
+            border: 1px dashed red;
+            color: blue;
+            padding: 5px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        div.container{
+            width: 500px;
+            
+            margin: 50px auto;
+            background-color: aliceblue;
+            justify-content: center;
+            align-items: center;
+            border-color: rgb(190, 13, 13);
+            box-shadow: 5px 5px 10px gray;
+            
+     
+        }
+        div{
+            margin-bottom: 15px;
+
+        }
+        div.form-group{
+            display: flex;
+            margin: 10px;
+
+        }
+        label{
+            width: 100px;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        input{
+            width: 100%;
+            padding: 5px;
+            border-color: pink;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            
+
+        }
+        .form-header{
+            text-align: center;
+        }
+        button{
+            margin-left: 20px;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 5px;
+            background-color: pink;
+            color: white;
+            cursor: pointer;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        footer{
+        text-align: center;
+        
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Register</h1>
+    </header>
+     <nav>
+        <a href="index.html">Home</a>
+         <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+            <a href="register.html">Register</a>
+    </nav>
+    <div class="container">
+        <form action="">
+            <div class="form-header">
+                <h2>FORM REGISTER</h2>
+            </div>
+            <div class="form-group">
+                <label for="">Username</label>
+                <input type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="">Email</label>
+                <input type="email" required>
+            </div>
+            <div class="form-group">
+                <label for="">Password</label>
+                <input type="password" required>
+            </div>
+            <div class="form-group">
+                <label for="">Repassword</label>
+                <input type="password" required minlength="8">
+            </div>
+            <button type="submit">Register</button>
+            <div class="form-footer"></div>
+        </form>
+    </div>
+      <footer>
+        <span >Email:sokna@gmail.com.kh</span>
+    </footer>
+</body>
+</html>
